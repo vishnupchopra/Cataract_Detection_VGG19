@@ -1,30 +1,30 @@
-# Cataract Detection using VGG19
+# 👁️ Cataract Detection using VGG19
 
 This repository implements a deep learning approach for cataract detection in retinal fundus images using the VGG19 convolutional neural network architecture.
 
-## Table of Contents
+## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Project Workflow](#project-workflow)
-- [Installation & Setup](#installation--setup)
-- [Usage](#usage)
-- [Results & Visualization](#results--visualization)
-- [References](#references)
+- [🔍 Overview](#-overview)
+- [📚 Dataset](#-dataset)
+- [⚙️ Project Workflow](#️-project-workflow)
+- [🚀 Installation & Setup](#-installation--setup)
+- [📝 Usage](#-usage)
+- [📊 Results & Visualization](#-results--visualization)
+- [🔗 References](#-references)
 
-## Overview
+## 🔍 Overview
 
 Cataracts are a leading cause of blindness and visual impairment worldwide. Early and accurate detection is crucial for timely treatment. This project leverages transfer learning with the VGG19 model to classify retinal images as either **cataract** or **normal**.
 
 The workflow includes data preprocessing, dataset balancing, model training, and evaluation, providing a comprehensive solution for automated cataract detection.
 
-## Dataset
+## 📚 Dataset
 
 - **Source:** [Ocular Disease Recognition (ODIR-5K)](https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k) from Kaggle.
 - **Description:** The dataset contains retinal fundus images labeled for various ocular diseases, including cataract and normal cases.
 - **Download:** You need a Kaggle account and API credentials to download the dataset.
 
-## Project Workflow
+## ⚙️ Project Workflow
 
 1. **Environment Setup**
     - Installs required Python packages: `opendatasets`, `pandas`, etc.
@@ -52,7 +52,7 @@ The workflow includes data preprocessing, dataset balancing, model training, and
     - Trains the VGG19 model on the prepared dataset.
     - Evaluates performance (accuracy, loss, visualizations).
 
-## Installation & Setup
+## 🚀 Installation & Setup
 
 1. **Clone the Repository**
     ```bash
@@ -85,7 +85,7 @@ The workflow includes data preprocessing, dataset balancing, model training, and
     - Obtain your Kaggle API credentials and upload the `kaggle.json` file to your environment.
     - The notebook will prompt you to enter your Kaggle username and key if running in Colab.
 
-## Usage
+## 📝 Usage
 
 1. **Open the Notebook**
 
@@ -105,13 +105,13 @@ The workflow includes data preprocessing, dataset balancing, model training, and
         - Train the VGG19 model
         - Output evaluation metrics and sample predictions
 
-## Results & Visualization
+## 📊 Results & Visualization
 
 - The notebook provides bar charts for class distribution and visual samples from both classes.
 - Accuracy and loss metrics are displayed for both training and testing sets.
 - Example predictions on images are visualized to demonstrate model performance.
 
-## References
+## 🔗 References
 
 - [ODIR-5K Dataset on Kaggle](https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k)
 - [VGG19 Paper](https://arxiv.org/abs/1409.1556)
@@ -121,4 +121,4 @@ The workflow includes data preprocessing, dataset balancing, model training, and
 
 **Author:** [Vishnu Chopra](https://github.com/vishnupchopra)
 
-Feel free to open issues or pull requests for suggestions and improvements!
+Feel free to open issues or pull requests for suggestions and improvements! 🌟
